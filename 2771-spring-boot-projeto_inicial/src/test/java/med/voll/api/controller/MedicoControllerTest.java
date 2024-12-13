@@ -53,7 +53,7 @@ class MedicoControllerTest {
     }
 
     @Test
-    @DisplayName("Deveria devolver codigo http 201 quando informacoes estao invalidas")
+    @DisplayName("Deveria devolver codigo http 201 quando informacoes estao validas")
     @WithMockUser
     void cadastrar_cenario2() throws Exception {
 
